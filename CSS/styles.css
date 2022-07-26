@@ -1,0 +1,232 @@
+/* HEADER */
+
+header {
+    background-image: url(/images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+    padding-top: 40px;
+}
+.h-container {
+   max-width: 1440px;
+   margin: 0 auto;
+   padding: 20px;
+}
+.navbar {
+    padding: 0 10px 0 10px;
+}
+.navbar img {
+    width: 200px;
+}
+.n-button {
+    float: right;
+    width: 170px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Poppins';
+    font-weight: 600;
+    background-color: white;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.hero {
+    margin-top: 70px;
+}
+.h-text {
+    float: left;
+    margin-top: 100px;
+}
+.h-text h1 {
+    font-family: 'Poppins';
+    font-size: 45px;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+}
+.h-text p {
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: hsl(192, 100%, 9%);
+}
+.h-button {
+    margin-top: 30px;
+    height: 50px;
+    width: 280px;
+    font-family: 'Poppins';
+    border-radius: 50px;
+    border: none;
+    background: hsl(322, 100%, 66%);
+    color: white;
+    box-shadow: 0 0.5rem 1rem rgba(255, 82, 191, 0.2);
+    font-weight: 500;
+}
+.h-image img {
+    width: 800px;
+}
+.h-image {
+    float: right;
+    margin-left: 20px;
+}
+
+/* MAIN */
+
+.m-container {
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 20px;
+ }
+.steps {
+    max-width: 1100px;
+    height: 400px;
+    margin: 50px auto;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.steps-text {
+    margin-top: 135px;
+    margin-left: 80px;
+    float: left;
+}
+.steps-text h2 {
+    font-family: 'Poppins';
+    font-size: 25px;
+    margin-bottom: 12px;
+    color: hsl(192, 100%, 9%);
+}
+.steps-text p {
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: hsl(208, 11%, 55%);
+}
+.steps-image {
+    float: right;
+    margin-right: 40px;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+.steps-image img {
+    width: 400px;
+}
+.steps-text-reverse {
+    margin-top: 135px;
+    margin-right: 45px;
+    float: right;
+}
+.steps-text-reverse h2 {
+    font-family: 'Poppins';
+    font-size: 25px;
+    margin-bottom: 12px;
+    color: hsl(192, 100%, 9%);
+}
+.steps-text-reverse p {
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: hsl(208, 11%, 55%);
+}
+.steps-image-reverse {
+    float: left;
+    margin-left: 65px;
+    margin-top: 60px;
+}
+.steps-image-reverse img {
+    width: 400px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    padding: 150px;
+    padding-bottom: 60px;
+    margin-top: 200px;
+}
+.f-container {
+    max-width: 1440px;
+    margin: 0px auto;
+    display: flex;
+    align-items: baseline;
+}
+.contact img {
+    float: left;
+    margin-top: 2px;
+}
+.contact p {
+    margin-left: 40px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+.f-list {
+    margin:0 auto;
+}
+.f-list ul {
+    column-count: 2;
+    column-gap: 150px;
+    line-height: 45px;
+    color: white;
+    font-family: 'Open Sans';
+}
+.f-icon {
+    color: white;
+    font-size: 25px;
+}
+.f-icon i {
+    margin-right: 15px;
+}
+.copyright {
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+    margin-top: 60px;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.f-logo img {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(261deg) brightness(102%) contrast(101%);
+}
+.f-logo {
+    max-width: 1440px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+
+/* CALL TO ACTION */
+
+.call-to-action {
+    
+}
+.card {
+    text-align: center;
+    height: 250px;
+    width: 700px;
+    background-color: white;
+    position: absolute;
+    margin-top: 170px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.card h1 {
+    margin-top: 63px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 30px;
+    color: hsl(192, 100%, 9%);
+}
+.card button {
+    margin-top: 20px;
+    width: 280px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins';
+    color: white;
+    font-size: 15px;
+}
