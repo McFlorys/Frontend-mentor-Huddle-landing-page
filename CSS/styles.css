@@ -29,6 +29,12 @@ header {
     font-weight: 600;
     background-color: white;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 0.2s;
+    
+}
+.n-button:hover {
+    color: #aeb3b7;
+    cursor: pointer;
 }
 .hero {
     margin-top: 70px;
@@ -60,6 +66,11 @@ header {
     color: white;
     box-shadow: 0 0.5rem 1rem rgba(255, 82, 191, 0.2);
     font-weight: 500;
+    transition: all ease-in-out 0.2s;
+}
+.h-button:hover {
+    background-color: #ff9bdb;
+    cursor: pointer;
 }
 .h-image img {
     width: 800px;
@@ -168,12 +179,26 @@ footer {
     color: white;
     font-family: 'Open Sans';
 }
+.f-list ul li a {
+    border-bottom: 1px solid transparent;
+}
+.f-list ul li a:hover {
+    transition: all ease-in-out 0.2s;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
 .f-icon {
     color: white;
     font-size: 25px;
 }
 .f-icon i {
     margin-right: 15px;
+    
+}
+.f-icon i:hover {
+    color: hsl(322, 100%, 66%);
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
 }
 .copyright {
     color: white;
@@ -229,4 +254,9 @@ footer {
     font-family: 'Poppins';
     color: white;
     font-size: 15px;
+    transition: all ease-in-out 0.2s;
+}
+.card button:hover {
+    background-color: #ff9bdb;
+    cursor: pointer;
 }
