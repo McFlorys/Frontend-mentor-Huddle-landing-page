@@ -23,3 +23,9 @@
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+.attribution {color:white;}
+
+.attrib {
+    background-color: hsl(192, 100%, 9%);
+    padding-bottom: 10px;
+}
