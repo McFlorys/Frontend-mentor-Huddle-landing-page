@@ -15,7 +15,7 @@
         height: auto;
     }
 }
-@media only screen and (max-width:993px) {
+@media only screen and (max-width:1012px) {
     .steps {
         height: 100%;
         padding: 50px 20px 50px 20px;
@@ -68,5 +68,50 @@
     }
     .navbar {
         height: 100%;
+    }
+}
+@media only screen and (max-width:1180px) {
+    .f-list ul {
+        column-gap: 18px;
+    }
+}
+@media only screen and (max-width:993px) {
+    .copyright {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .f-container {
+        display: block;
+        text-align: center;
+    }
+    .f-list ul {
+        column-count: 1;
+    }
+    .contact img {
+        float: none;
+    }
+    .contact p {
+        margin-left: 0;
+    }
+    .f-list {
+        margin-bottom: 20px;
+    }
+    .f-logo {
+        text-align: center;
+    }
+    footer {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media only screen and (max-width:740px) {
+    .card {
+        width: 90vw;
+        height: 100%;
+        padding-top: 8vw;
+        padding-bottom: 8vw;
+    }
+    .f-logo img {
+        width: 45vw;
     }
 }
