@@ -54,7 +54,7 @@
 }
 @media only screen and (max-width:700px) {
     header {
-        background-image: url(/images/bg-hero-mobile.svg);
+        background-image: url(https://i.ibb.co/nk07m0x/bg-hero-mobile.png);
     }
 }
 @media only screen and (max-width:500px) {
